@@ -1,8 +1,9 @@
 rm(list=ls())
 
-library(ggplot)
+library(ggplot2)
 library(cowplot)
 library(readxl)
+library(shadowtext)
 
 # https://www.scb.se/en/finding-statistics/statistics-by-subject-area/population/population-composition/population-statistics/pong/tables-and-graphs/preliminary-statistics-on-deaths
 raw <- read_excel("2020-09-21-preliminar_statistik_over_doda_inkl_eng.xlsx", sheet=2, skip=6)
